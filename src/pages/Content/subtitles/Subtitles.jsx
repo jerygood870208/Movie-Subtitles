@@ -229,6 +229,7 @@ function Subtitles({ video, subsEnabled, speedDisplay, netflix, editRef }) {
                 fontSize: fontRef.current,
               });
             }
+            console.log('font-smaller');
             break;
           case 'font-bigger':
             fontRef.current += 2;

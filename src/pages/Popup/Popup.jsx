@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
+import { createTheme, ThemeProvider } from '@material-ui/core/styles';
 import Header from './Header';
 import SubtitleSettings from './SubtitleSettings/index';
 import GeneralSection from './GeneralSection';
@@ -7,7 +7,7 @@ import Shortcuts from './Shortcuts';
 import NoVideoDetected from './NoVideoDetected';
 
 // For consistency across websites with different global styles
-const msTheme = createMuiTheme({
+const msTheme = createTheme({
   palette: {
     primary: {
       main: '#ba000d',
